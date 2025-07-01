@@ -1,0 +1,24 @@
+module ADDRDecoding_Prog(
+	input [31:0]address,
+	output reg [31:0]iAddressInst,
+	output reg CS_P
+);
+
+	reg [31:0]upper_address = 32'h1CBF;
+	reg [31:0]lower_address = 32'h18C0;
+
+	initial begin
+		CS_P = 0;
+		iAddressInst = lower_address;
+	end
+
+	always @(*) begin
+		if (lower_address <= address && address <= upper_address) begin
+			iAddressInst = address;
+			CS_P = 1;
+		end
+		else
+			CS_P = 0;
+	end
+
+endmodule

@@ -1,0 +1,253 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "iAddressInst[0]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[1]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[2]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[3]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[4]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[5]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[6]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[7]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[8]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[9]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[10]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[11]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[12]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[13]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[14]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[15]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[16]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[17]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[18]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[19]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[20]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[21]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[22]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[23]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[24]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[25]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[26]",
+					"strict" : false
+				},
+				{
+					"name" : "iAddressInst[27]",
+					"strict" : false
+				},
+				{
+					"name" : "CS_P",
+					"strict" : false
+				},
+				{
+					"name" : "address[10]",
+					"strict" : false
+				},
+				{
+					"name" : "address[8]",
+					"strict" : false
+				},
+				{
+					"name" : "address[9]",
+					"strict" : false
+				},
+				{
+					"name" : "address[6]",
+					"strict" : false
+				},
+				{
+					"name" : "address[7]",
+					"strict" : false
+				},
+				{
+					"name" : "address[13]",
+					"strict" : false
+				},
+				{
+					"name" : "address[14]",
+					"strict" : false
+				},
+				{
+					"name" : "address[11]",
+					"strict" : false
+				},
+				{
+					"name" : "address[12]",
+					"strict" : false
+				},
+				{
+					"name" : "address[15]",
+					"strict" : false
+				},
+				{
+					"name" : "address[16]",
+					"strict" : false
+				},
+				{
+					"name" : "address[17]",
+					"strict" : false
+				},
+				{
+					"name" : "address[18]",
+					"strict" : false
+				},
+				{
+					"name" : "address[19]",
+					"strict" : false
+				},
+				{
+					"name" : "address[20]",
+					"strict" : false
+				},
+				{
+					"name" : "address[21]",
+					"strict" : false
+				},
+				{
+					"name" : "address[22]",
+					"strict" : false
+				},
+				{
+					"name" : "address[23]",
+					"strict" : false
+				},
+				{
+					"name" : "address[24]",
+					"strict" : false
+				},
+				{
+					"name" : "address[25]",
+					"strict" : false
+				},
+				{
+					"name" : "address[26]",
+					"strict" : false
+				},
+				{
+					"name" : "address[31]",
+					"strict" : false
+				},
+				{
+					"name" : "address[27]",
+					"strict" : false
+				},
+				{
+					"name" : "address[28]",
+					"strict" : false
+				},
+				{
+					"name" : "address[29]",
+					"strict" : false
+				},
+				{
+					"name" : "address[30]",
+					"strict" : false
+				},
+				{
+					"name" : "address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "address[5]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
