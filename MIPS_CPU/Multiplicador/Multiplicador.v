@@ -1,16 +1,16 @@
 module Multiplicador(
 	input Clk,
 	input St,
-	input [3:0]Multiplicando,
-	input [3:0]Multiplicador,
+	input [15:0]Multiplicando,
+	input [15:0]Multiplicador,
 
 	output Done,
 	output Idle,
-	output [7:0]Produto
+	output [31:0]Produto
 );
 
-	wire [8:0]saidas;
-	wire [4:0]Soma;
+	wire [32:0]saidas;
+	wire [16:0]Soma;
 	
 	wire Load;
 	wire Ad;
@@ -23,22 +23,22 @@ module Multiplicador(
 /*
 module ACC (
 	input Load, Sh, Ad, Clk, 
-	input [8:0] Entradas,
-	output [8:0] Saidas
+	input [32:0] Entradas,
+	output [32:0] Saidas
 );
 */
-	assign Produto = saidas[7:0];
+	assign Produto = saidas[31:0];
 	ACC U0(.Load(Load), .Sh(Sh), .Ad(Ad), .Clk(Clk), .Entradas({Soma, Multiplicador}), .Saidas(saidas));
 
 
 // ADDER
 /*
 module Adder (
-	input [3:0] OperandoA, OperandoB,
-	output [4:0] Soma
+	input [15:0] OperandoA, OperandoB,
+	output [16:0] Soma
 );
 */
-	Adder U1(.OperandoA(Multiplicando), .OperandoB(saidas[7:4]), .Soma(Soma));
+	Adder U1(.OperandoA(Multiplicando), .OperandoB(saidas[31:16]), .Soma(Soma));
 
 
 // CONTROL

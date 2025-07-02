@@ -5,15 +5,15 @@ module ACC_TB();
 	reg Sh;
 	reg Ad;
 	reg Load;
-	reg [8:0] Entradas;
+	reg [32:0] Entradas;
 
-	wire [8:0] Saidas;
+	wire [32:0] Saidas;
 
 	/*
 	module ACC (
 		input Load, Sh, Ad, Clk, 
-		input [8:0] Entradas,
-		output [8:0] Saidas
+		input [32:0] Entradas,
+		output [32:0] Saidas
 	);	
 	*/
 
@@ -67,7 +67,7 @@ module ACC_TB();
 	endtask
 
 	task Shift_Test;
-		input [8:0] data;
+		input [32:0] data;
 		begin
 			@(negedge Clk);
 			$display("\n[%0t] Starting Shift Test", $time);

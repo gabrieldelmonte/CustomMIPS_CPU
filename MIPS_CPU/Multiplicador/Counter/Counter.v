@@ -3,15 +3,15 @@ module Counter (
 	output reg K
 );
 
-	reg [2:0]count;
+	reg [5:0]count;
 
 	always @(posedge Clk) begin
 		if (Load) begin
-			count <= 3'b000;
+			count <= 6'b000000;
 			K <= 1'b0;
 		end
-		else if (count == 3'b110) begin
-            count <= 3'b000;
+		else if (count == 6'd30) begin
+            count <= 6'b000000;
 			K <= 1'b1;
 		end
 		else begin
