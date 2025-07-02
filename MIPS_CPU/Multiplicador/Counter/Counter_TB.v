@@ -52,7 +52,7 @@ module Counter_TB();
 			$display("[%0t] Load Applied. K=%b", $time, K);
 			Load = 0;
 
-			repeat (8) begin
+			repeat (31) begin
 				@(posedge Clk);
 				$display("[%0t] Counting... K=%b", $time, K);
 			end

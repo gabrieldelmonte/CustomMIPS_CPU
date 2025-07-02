@@ -3,12 +3,12 @@
 module Multiplicador_TB();
 	reg Clk;
 	reg St;
-	reg [3:0] Multiplicando;
-	reg [3:0] Multiplicador;
+	reg [15:0] Multiplicando;
+	reg [15:0] Multiplicador;
 
 	wire Done;
 	wire Idle;
-	wire [7:0] Produto;
+	wire [31:0] Produto;
 
 	Multiplicador DUT (
 		.Clk(Clk),
@@ -28,9 +28,9 @@ module Multiplicador_TB();
 	initial begin
 		Initialize();
 
-		Multiply_Test(4'd3,  4'd5);	// 3 * 5 = 15
-		Multiply_Test(4'd7,  4'd7); // 7 * 7 = 49
-		Multiply_Test(4'd12, 4'd3); // 12 * 3 = 36
+		Multiply_Test(16'd3,  16'd5);	// 3 * 5 = 15
+		Multiply_Test(16'd7,  16'd7); // 7 * 7 = 49
+		Multiply_Test(16'd12, 16'd3); // 12 * 3 = 36
 
 		#50;
 		$finish;
@@ -45,8 +45,8 @@ module Multiplicador_TB();
 	endtask
 
 	task Multiply_Test;
-		input [3:0] A;
-		input [3:0] B;
+		input [15:0] A;
+		input [15:0] B;
 		begin
 			@(negedge Clk);
 			Multiplicando = A;
