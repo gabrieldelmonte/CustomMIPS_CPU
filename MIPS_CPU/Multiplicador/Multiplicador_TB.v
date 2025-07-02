@@ -28,12 +28,12 @@ module Multiplicador_TB();
 	initial begin
 		Initialize();
 
-		Multiply_Test(16'd3,  16'd5);	// 3 * 5 = 15
+		Multiply_Test(16'd3,  16'd5); // 3 * 5 = 15
 		Multiply_Test(16'd7,  16'd7); // 7 * 7 = 49
 		Multiply_Test(16'd12, 16'd3); // 12 * 3 = 36
 
 		#50;
-		$finish;
+		$stop;
 	end
 
 	task Initialize;

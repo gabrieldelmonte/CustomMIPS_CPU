@@ -13,10 +13,12 @@ module pc(
 	always @(posedge clock, posedge reset) begin
 		if (reset) begin
 			address <= 32'h18C0;
+			//address <= 32'h0;
 			resetControl <= 0;
 		end
 		else if (jmpFlag) begin
 			address <= 32'h18C0 + jmpAddress;
+			//address <= jmpAddress;
 			resetControl <= 0;
 		end
 		else if (branchFlag && !zeroFlag) begin

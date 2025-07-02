@@ -24,17 +24,17 @@ module registerfile(
 			output_data_B <= 32'h0;
 		end
 		else begin
-			if (rs)
-				output_data_A <= register[rs];
-			else
+			if (rs == 0)
 				output_data_A <= 32'h0;
-
-			if (rt)
-				output_data_B <= register[rt];
 			else
-				output_data_B <= 32'h0;
+				output_data_A <= register[rs];
 
-			if (we && rd)
+			if (rt == 0)
+				output_data_B <= 32'h0;
+			else
+				output_data_B <= register[rt];
+
+			if (we && rd != 0)
 				register[rd] <= input_data;
 		end
 	end

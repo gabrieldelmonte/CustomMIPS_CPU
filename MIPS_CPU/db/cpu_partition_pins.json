@@ -1,0 +1,665 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CS",
+					"strict" : false
+				},
+				{
+					"name" : "CS_P",
+					"strict" : false
+				},
+				{
+					"name" : "WE",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_Prog[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_WRITE[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_BUS_READ[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Prog_BUS_READ[23]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -5,9 +5,9 @@ module ADDRDecoding(
 	output reg iWE,
 	output reg [31:0]iAddress
 );
-
-	reg [31:0]upper_address = 32'h9310;
-	reg [31:0]lower_address = 32'h8F11;
+	
+	reg [31:0]upper_address = 32'h1D2D;
+	reg [31:0]lower_address = 32'h192E;
 
 	initial begin
 		CS = 0;

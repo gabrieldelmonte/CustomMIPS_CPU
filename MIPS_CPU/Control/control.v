@@ -1,6 +1,6 @@
 module control(
 	input [31:0]input_data,
-	output [31:0]output_data
+	output [24:0]output_data
 );
 
 	// Grupo 22
@@ -202,3 +202,4 @@ module control(
 	end
 
 endmodule
+
