@@ -6,15 +6,15 @@ module alu(
 	output zeroFlag
 );
 
-	assign zeroFlag = (output_data == 32'h0) ? 1 : 0;
-
 	always @(*) begin
 		case (selector)
-			2'b00: output_data <= input_data_A + input_data_B;
-			2'b01: output_data <= input_data_A - input_data_B;
-			2'b10: output_data <= input_data_A & input_data_B;
-			2'b11: output_data <= input_data_A | input_data_B;
+			2'b00: output_data <= (input_data_A + input_data_B);
+			2'b01: output_data <= (input_data_A - input_data_B);
+			2'b10: output_data <= (input_data_A & input_data_B);
+			2'b11: output_data <= (input_data_A | input_data_B);
 		endcase
 	end
+
+	assign zeroFlag = (output_data == 32'h0) ? 1 : 0;
 
 endmodule

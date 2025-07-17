@@ -1,8 +1,8 @@
 module mux(
-	input selector,
-	input [31:0]a,
-	input [31:0]b,
-	output [31:0]out
+	input wire [31:0]a,
+	input wire [31:0]b,
+	input wire selector,
+	output wire [31:0]out
 );
 
 	assign out = (selector) ? b : a;

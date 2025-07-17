@@ -1,8 +1,8 @@
-module register(
-	input [31:0]input_data,
+module register #(parameter DATA_WIDTH = 32)(
+	input [(DATA_WIDTH - 1):0]input_data,
 	input clock,
 	input reset,
-	output reg [31:0]output_data
+	output reg [(DATA_WIDTH - 1):0]output_data
 );
 
 	always @(posedge clock, posedge reset) begin

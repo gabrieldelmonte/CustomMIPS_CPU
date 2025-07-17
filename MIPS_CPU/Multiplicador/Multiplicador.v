@@ -1,6 +1,7 @@
 module Multiplicador(
 	input Clk,
 	input St,
+	input reset,
 	input [15:0]Multiplicando,
 	input [15:0]Multiplicador,
 
@@ -11,7 +12,7 @@ module Multiplicador(
 
 	wire [32:0]saidas;
 	wire [16:0]Soma;
-	
+
 	wire Load;
 	wire Ad;
 	wire Sh;
@@ -22,9 +23,12 @@ module Multiplicador(
 // ACC
 /*
 module ACC (
-	input Load, Sh, Ad, Clk, 
 	input [32:0] Entradas,
-	output [32:0] Saidas
+	input Ad,
+	input Clk,
+	input Load, 
+	input Sh, 
+	output reg [32:0] Saidas
 );
 */
 	assign Produto = saidas[31:0];
@@ -34,7 +38,8 @@ module ACC (
 // ADDER
 /*
 module Adder (
-	input [15:0] OperandoA, OperandoB,
+	input [15:0] OperandoA,
+	input [15:0] OperandoB,
 	output [16:0] Soma
 );
 */
@@ -44,22 +49,21 @@ module Adder (
 // CONTROL
 /*
 module CONTROL (
-	input Clk, K, St, M,
-	output Idle, Done, Load, Sh, Ad
+	input Clk, K, St, M, reset,
+	output reg Idle, Done, Load, Sh, Ad
 );
 */
 	assign M = saidas[0];
-	CONTROL U2(.Clk(Clk), .K(K), .St(St), .M(M), .Idle(Idle), .Done(Done), .Load(Load), .Sh(Sh), .Ad(Ad));
+	CONTROL U2(.Clk(Clk), .K(K), .St(St), .M(M), .reset(reset), .Idle(Idle), .Done(Done), .Load(Load), .Sh(Sh), .Ad(Ad));
 
 
 // COUNTER
 /*
 module Counter (
-	input Load, Clk,
-	output K
+	input Load, Clk, reset,
+	output reg K
 );
 */
-	Counter U3(.Load(Load), .Clk(Clk), .K(K));
-
+	Counter U3(.Load(Load), .Clk(Clk), .reset(reset), .K(K));
 
 endmodule

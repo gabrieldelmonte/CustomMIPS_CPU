@@ -39,7 +39,7 @@ module ACC_TB();
 		Add_Test(200);
 
 		#30;
-		$finish;
+		$stop;
 	end
 
 	task Initialize;

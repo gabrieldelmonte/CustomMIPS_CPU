@@ -55,7 +55,7 @@ module CONTROL_TB();
 		Idle_Check();
 
 		#30;
-		$finish;
+		$stop;
 	end
 
 	task Initialize;

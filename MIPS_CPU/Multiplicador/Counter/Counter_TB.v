@@ -33,7 +33,7 @@ module Counter_TB();
 		Load_Test();
 
 		#50;
-		$finish;
+		$stop;
 	end
 
 	task Initialize;

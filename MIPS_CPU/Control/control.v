@@ -42,11 +42,12 @@ module control(
 	always @(input_data) begin
 
 		operation_code = input_data[31:26];
-		operation = input_data[5:0];
 		rs = input_data[25:21];
 		rt = input_data[20:16];
 
-		case(input_data[31:26])
+		operation = input_data[5:0];
+
+		case(operation_code)
 			6'd2: begin // JMP
 				rd = 5'b0;
 				WR_regfile = 0;
@@ -202,4 +203,3 @@ module control(
 	end
 
 endmodule
-

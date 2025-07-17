@@ -1,23 +1,23 @@
 module Counter (
-	input Load, Clk,
+	input Load, Clk, reset,
 	output reg K
 );
 
-	reg [5:0]count;
+	reg [7:0]count;
 
-	always @(posedge Clk) begin
-		if (Load) begin
-			count <= 6'b000000;
-			K <= 1'b0;
+	always @(posedge Clk, posedge reset) begin
+		if (reset) begin
+			count <= 8'b0;
+			K <= 0;
 		end
-		else if (count == 6'd30) begin
-            count <= 6'b000000;
-			K <= 1'b1;
+		else if (Load) begin
+			count <= 8'b0;
+			K <= 0;
 		end
-		else begin
-			count <= count + 1;
-			K <= 1'b0;
-		end
+		else if (count == 29)
+			K <= 1;
+		else
+			count <= (count + 1);
 	end
 
 endmodule
