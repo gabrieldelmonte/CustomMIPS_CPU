@@ -6,11 +6,11 @@ This project implements a **custom MIPS CPU** in Verilog using a pipelined archi
 ---
 
 ## Group Members
-- **Gabriel Del Monte Schiavi Noda** - 2022014552  
+- **Gabriel Del Monte Schiavi Noda**
   [GitHub Profile](https://github.com/GabrielDelMonte)
-- **Gabrielle Gomes Almeida** - 2022002758  
+- **Gabrielle Gomes Almeida**
   [GitHub Profile](https://github.com/gavgms12)
-- **Leonardo José Siqueira Marinho** - 2022009730  
+- **Leonardo José Siqueira Marinho**
   [GitHub Profile](https://github.com/Lion4rdo)
 
 ---
