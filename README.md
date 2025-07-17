@@ -181,7 +181,7 @@ The included test program (`Code.asm`) demonstrates:
 4. **Compile**: Synthesize and check for timing violations
 
 ### ModelSim Simulation
-1. **Testbench**: Use `TB.v` for comprehensive system testing
+1. **Testbench**: Use `TB.v`, with the gate-level simulation, for comprehensive system testing
 2. **Waveform Analysis**: Monitor pipeline registers and control signals
 3. **Verification**: Validate instruction execution and memory operations
 
